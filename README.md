@@ -23,7 +23,7 @@ Antes de começar, certifique-se de que sua máquina tem os seguintes itens inst
 2️⃣ Execute o seguinte comando para **clonar o projeto**:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/SEGUNDO_PROJETO.git
+git clone https://github.com/AugustaBezerra/segundo-projeto.git
 ```
 
 Ou, se preferir, baixe os arquivos diretamente do site.  
