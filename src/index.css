@@ -226,7 +226,7 @@ button:focus-visible {
 
 .navbar{
   position: fixed;
-  top: 100px;
+  top: 0px;
   left: calc(50% - 75px);
   background-color: #ffffff;
   padding: 10px 20px;
