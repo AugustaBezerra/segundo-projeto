@@ -120,7 +120,7 @@ const Messages:  React.FC = () => {
               setNewContent={setNewContent}
           
           />
-          <button className="add-button" onClick={() => setIsModalOpen(true)}> <PlusCircle  size={32} stroke="black"/></button>
+          <button className="add-button" onClick={() => setIsModalOpen(true)}> <PlusCircle  size={32}/></button>
         <h1 className="title-h1">Mensagens</h1>
         <table className="table">
           <thead>
@@ -177,10 +177,10 @@ const Messages:  React.FC = () => {
                   ) : (
                     <>
                       <button className="action-button edit-button" onClick={() => handleEdit(msg.id, msg.title, msg.content)}>
-                        <Pen size={16} stroke="black" />
+                        <Pen size={16} />
                       </button>
                       <button className="action-button remove-button" onClick={()=> handleDelete(msg.id)}>
-                        <Trash size={16} stroke="red"/>
+                        <Trash size={16} />
                       </button>
                     </>
                   )}
